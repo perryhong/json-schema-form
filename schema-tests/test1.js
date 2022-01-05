@@ -6,6 +6,9 @@ const schema = {
     name: {
       type: 'string',
       minLength: 10
+    },
+    age: {
+      type: 'number'
     }
   }
 }
