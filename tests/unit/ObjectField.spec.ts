@@ -44,7 +44,7 @@ describe('ObjectField', () => {
       props: {
         schema,
         value: value,
-        onChange: (v) => {
+        onChange: (v: any) => {
           value = v
         },
       },

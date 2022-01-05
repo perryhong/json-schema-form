@@ -37,7 +37,7 @@ describe('ArrayField', () => {
           items: [{ type: 'string' }, { type: 'string' }],
         },
         value,
-        onChange: (v) => {
+        onChange: (v: any) => {
           value = v
         },
       },
@@ -59,7 +59,7 @@ describe('ArrayField', () => {
           items: { type: 'string', enum: ['foo', 'bar', 'baz'] },
         },
         value: value,
-        onChange: (v) => {
+        onChange: (v: any) => {
           value = v
         },
       },

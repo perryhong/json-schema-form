@@ -63,7 +63,6 @@ export default defineComponent({
     },
     uiSchema: {
       type: Object as PropType<UISchema>,
-      required: true,
     },
     customFormats: {
       type: [Array, Object] as PropType<CustomFormat[] | CustomFormat>,
